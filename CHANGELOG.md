@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 0.3.0
+
+Added escape VO
+
 ## Release 0.2.1
 
 Updated test.vo and test.vo.2
