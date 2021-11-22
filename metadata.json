@@ -1,12 +1,12 @@
 {
   "name": "cnafsd-voms",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "author": "cnafsd",
   "summary": "This module manages VOMS resources",
   "license": "Apache-2.0",
-  "source": "https://github.com/enricovianello/puppet-voms",
-  "project_page": "https://github.com/enricovianello/puppet-voms",
-  "issues_url": "https://github.com/enricovianello/puppet-voms/issues",
+  "source": "https://github.com/italiangrid/puppet-voms",
+  "project_page": "https://github.com/italiangrid/puppet-voms",
+  "issues_url": "https://github.com/italiangrid/puppet-voms/issues",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
