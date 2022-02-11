@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 0.6.1
+
+Fixed typo
+
 ## Release 0.6.0
 
 Updated vgrid02 lsc files
