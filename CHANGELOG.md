@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 0.8.0
+
+Updated WLCG dn
+
 ## Release 0.7.0
 
 Updated escape dn
