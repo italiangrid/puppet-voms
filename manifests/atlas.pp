@@ -1,6 +1,6 @@
 # @summary Atlas VO configuration class
-class voms::atlas() {
-  voms::vo{ 'atlas':
+class voms::atlas {
+  voms::vo { 'atlas':
     servers => [
       {
         'server' => 'voms2.cern.ch',

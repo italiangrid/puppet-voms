@@ -4,7 +4,6 @@ define voms::vo (
   String $vo = $title,
   Array[Voms::Server] $servers = [],
 ) {
-
   if !defined(File['/etc/grid-security/vomsdir']) {
     file { '/etc/grid-security/vomsdir':
       ensure  => directory,
@@ -17,7 +16,7 @@ define voms::vo (
     }
   }
   if !defined(File['/etc/vomses']) {
-    file{'/etc/vomses':
+    file { '/etc/vomses':
       ensure  => directory,
       owner   => 'root',
       group   => 'root',
@@ -38,7 +37,7 @@ define voms::vo (
   }
 
   # Set defaults for the rest of this scope.
-  File{
+  File {
     owner => 'root',
     group => 'root',
     mode  => '0644',
@@ -54,15 +53,14 @@ define voms::vo (
     $server_dn = $server[dn]
     $server_ca_dn = $server[ca_dn]
     file { "/etc/grid-security/vomsdir/${vo}/${server_host}.lsc":
-      ensure  => present,
+      ensure  => file,
       content => template($vo_lsc_template_file),
       require => [File["/etc/grid-security/vomsdir/${vo}"]],
     }
     file { "/etc/vomses/${vo}-${server_host}":
-      ensure  => present,
+      ensure  => file,
       content => template($vo_server_template_file),
       require => [File['/etc/vomses']],
     }
   }
-
 }

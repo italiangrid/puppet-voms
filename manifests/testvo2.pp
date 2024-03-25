@@ -1,6 +1,5 @@
 # @summary test.vo.2 VO configuration class
-class voms::testvo2() {
-
+class voms::testvo2 {
   voms::vo { 'test.vo.2':
     servers => [
       {

@@ -1,6 +1,6 @@
 # @summary dteam VO configuration class
-class voms::dteam() {
-  voms::vo{ 'dteam':
+class voms::dteam {
+  voms::vo { 'dteam':
     servers => [
       {
         'server' => 'voms2.hellasgrid.gr',

@@ -3,7 +3,6 @@ define voms::repo (
   Boolean $enabled = true,
   Enum['stable','beta','nightly'] $type = $title,
 ) {
-
   $base = 'https://repo.cloud.cnaf.infn.it/repository'
   $el = $::operatingsystemmajrelease
 
@@ -20,5 +19,4 @@ define voms::repo (
     priority => 1,
     gpgcheck => 0,
   }
-
 }

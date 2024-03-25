@@ -1,6 +1,5 @@
 # @summary escape VO configuration class
-class voms::escape() {
-
+class voms::escape {
   voms::vo { 'escape':
     servers => [
       {

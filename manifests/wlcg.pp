@@ -1,6 +1,5 @@
 # @summary WLCG VO configuration class
-class voms::wlcg() {
-
+class voms::wlcg {
   voms::vo { 'wlcg':
     servers => [
       {
