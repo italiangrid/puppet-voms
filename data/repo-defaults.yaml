@@ -1,0 +1,7 @@
+---
+voms::repo::installed:
+  - 'stable'
+  - 'beta'
+  - 'nightly'
+voms::repo::enabled:
+  - 'stable'

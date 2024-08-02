@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 1.0.0
+
+Updated CMS, Alice, Atlas, dteam, ops
+Voms::Repo is now a class
+
 ## Release 0.8.0
 
 Updated WLCG dn

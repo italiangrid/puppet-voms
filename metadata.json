@@ -1,6 +1,6 @@
 {
   "name": "cnafsd-voms",
-  "version": "0.9.2",
+  "version": "1.0.0",
   "author": "cnafsd",
   "summary": "This module manages VOMS resources",
   "license": "Apache-2.0",
@@ -10,7 +10,7 @@
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
-      "version_requirement": ">= 1.0.0"
+      "version_requirement": ">= 6.6.0"
     }
   ],
   "operatingsystem_support": [
@@ -21,15 +21,15 @@
       ]
     },
     {
-      "operatingsystem": "OracleLinux",
+      "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "7"
+        "9"
       ]
     },
     {
-      "operatingsystem": "RedHat",
+      "operatingsystem": "AlmaLinux",
       "operatingsystemrelease": [
-        "8"
+        "9"
       ]
     },
     {
@@ -42,7 +42,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 5.5.0 < 8.0.0"
+      "version_requirement": ">= 7.0.0 < 8.0.0"
     }
   ],
   "pdk-version": "3.0.0",
