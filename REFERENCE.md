@@ -10,6 +10,7 @@
 * [`voms::alice`](#voms--alice): Alice VO configuration class
 * [`voms::atlas`](#voms--atlas): Atlas VO configuration class
 * [`voms::cms`](#voms--cms): CMS VO configuration class
+* [`voms::cnafsd`](#voms--cnafsd): cnafsd VO configuration class
 * [`voms::dteam`](#voms--dteam): dteam VO configuration class
 * [`voms::escape`](#voms--escape): escape VO configuration class
 * [`voms::lhcb`](#voms--lhcb): LHCB VO configuration class
@@ -44,6 +45,10 @@ Atlas VO configuration class
 ### <a name="voms--cms"></a>`voms::cms`
 
 CMS VO configuration class
+
+### <a name="voms--cnafsd"></a>`voms::cnafsd`
+
+cnafsd VO configuration class
 
 ### <a name="voms--dteam"></a>`voms::dteam`
 
