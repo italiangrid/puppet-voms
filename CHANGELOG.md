@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## Release 3.1.0
+
+Add vo_dampe_org
+
+## Release 3.0.0
+
+Restore test.vo for voms-dev as it was before 2.0.0
+
 ## Release 2.0.0
 
 Created cnafsd VO
